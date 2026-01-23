@@ -29,7 +29,11 @@ auto2.tulostaTiedot();
 const kirjat = [
   { nimi: "Blue Lock", kirjailija: "Muneyuki Kaneshiro", vuosi: 2018 },
   { nimi: "The 48 Laws of Power", kirjailija: "Robert Greene", vuosi: 1998 },
-  { nimi: "Harry Potter", kirjailija: "J.K. Rowling", vuosi: 1997 },
+  {
+    nimi: "Raamattu",
+    kirjailija: "useita kirjoittajia",
+    vuosi: "n. 1400 eKr.100 jKr.",
+  },
 ];
 
 kirjat.forEach((kirja) => {
